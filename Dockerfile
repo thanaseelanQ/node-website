@@ -1,4 +1,4 @@
-FROM node
+FROM alpine-node:12.14
 RUN mkdir /nodeapp
 WORKDIR /nodeapp/
 COPY . /nodeapp
